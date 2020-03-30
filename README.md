@@ -4,7 +4,9 @@ This repo contains data collected from various sources to create a create graphs
 
 Knowing the number of tests conducted is essential context for interpreting the absolute number of positive cases typically presented in the media. For example, have China stopped their epidemic, or did they just stop testing?
 
-It's very difficult to get hold of data on the number of tests conducted, and it's very likely that in the vast majority of countries, far more people are infected than the postive cases imply 
+It's very difficult to get hold of data on the number of tests conducted, and it's very likely that in the vast majority of countries, far more people are infected than the positive cases imply. 
+
+See also [garethjns/social-distancing-sim](https://github.com/garethjns/social-distancing-sim) for a graph-based disease spread model.
 
 # Positivity rate rate: Positive cases vs rate of testing (March 2020)
 
@@ -42,5 +44,5 @@ Estimated data points:
         10x + 10000 + 5x = 26000 - 14.5x  
         19.5x = 16000  
         x = 820  
-  - The number of tests being conducted per day as of March 30. No idea. The government was apparently aiming for 20,000 per day apparently. This final point value is varied in the graph.
+  - The number of tests being conducted per day as of March 30. No idea. The government was aiming for 20,000 per day apparently. This final point value is varied in the graph.
   
