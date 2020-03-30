@@ -7,6 +7,9 @@ Knowing the number of tests conducted is essential context for interpreting the 
 It's very difficult to get hold of data on the number of tests conducted, and it's very likely that in the vast majority of countries, far more people are infected than the postive cases imply 
 
 # Positivity rate rate: Positive cases vs rate of testing (March 2020)
+
+![positivity rate](https://github.com/garethjns/covid-19-stats/blob/master/images/positivity_plot.png) 
+
 I thought this would be a fairly simple plot, but while trying to collect testing data numbers for the UK I've ended up with 4 data points for March, 2 of which are estimates. If anyone has better data, please let me know.
 
 At the time of plotting this, the UK has shown a decline in the number of new cases for the past 3 days. Is this significant? Is it chance? Or has the rate of testing changed?
@@ -15,7 +18,7 @@ This plot shows the positivity rate - the number of cases detected per number of
 
 Data:
   - https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_Kingdom#Testing_and_surveillance
-    - 326 in total had been conducted by tests 3rd Feb, 
+    - 326 in total had been conducted by tests 3rd Feb
     - 26k tests total by 10th March
     - 30k tests total 12th march
   - https://www.worldometers.info/coronavirus/country/uk/
@@ -25,6 +28,9 @@ Assuming:
   1) 10 March must be ~2k tests /day to get to 30k by 12
   2) Linear increase in testing rate between 1st Feb -> 1st March
   3) Linear increase from 1st March to 2k on March 12.
+
+Model:
+  - Simple piecewise interpolation of known and estimated number of tests per day.
 
 Estimated data points:
   - 0 Tests per day start of Feb - for simplicity, and it's close enough
@@ -37,5 +43,4 @@ Estimated data points:
         19.5x = 16000  
         x = 820  
   - The number of tests being conducted per day as of March 30. No idea. The government was apparently aiming for 20,000 per day apparently. This final point value is varied in the graph.
-  
   

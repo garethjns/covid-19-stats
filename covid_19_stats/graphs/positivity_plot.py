@@ -73,4 +73,4 @@ class PositivityPlot:
 
 if __name__ == "__main__":
     pp = PositivityPlot()
-    pp.plot()
+    fig = pp.plot()
