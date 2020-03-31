@@ -10,13 +10,13 @@ See also [garethjns/social-distancing-sim](https://github.com/garethjns/social-d
 
 # Positivity rate rate: Positive cases vs rate of testing (March 2020)
 
-![positivity rate](https://github.com/garethjns/covid-19-stats/blob/master/images/positivity_plot.png) 
+![positivity rate](https://github.com/garethjns/covid-19-stats/blob/master/images/positivity_plot_2.png) 
 
 I thought this would be a fairly simple plot, but while trying to collect testing data numbers for the UK I've ended up with 4 data points for March, 2 of which are estimates. If anyone has better data, please let me know.
 
 At the time of plotting this, the UK has shown a decline in the number of new cases for the past 3 days. Is this significant? Is it chance? Or has the rate of testing changed?
 
-This plot shows the positivity rate - the number of cases detected per number of tests done. It makes the following data and assumptions, and plots a couple of outcomes based on the most significant of these assumptions:
+This plot shows the positivity rate - the number of cases detected per number of tests done. It makes the following data and assumptions, and plots a couple of outcomes based on variation of the estimated number of tests.
 
 Data:
   - https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_Kingdom#Testing_and_surveillance
